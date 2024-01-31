@@ -1,12 +1,10 @@
-import React, { PureComponent } from 'react'
+import React from 'react'
 import ReactDOM from 'react-dom/client'
-// import App from './App.jsx'
-// import './index.css'
-import SimpleComponents from '../Components/SimpleComponents'
-import Pure from '../Components/PureComponents'
+import App from './App.jsx'
+import './index.css'
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <SimpleComponents />
-    <Pure/>
+    <App />
   </React.StrictMode>,
 )
