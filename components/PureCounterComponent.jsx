@@ -26,7 +26,7 @@ class SimpleCounterComponent extends PureComponent {
     console.log("Pure Components");
     return (
       <div>
-        <h2>Simple Component</h2>
+        <h2>Pure Component</h2>
         <p>Count: {this.state.count}</p>
         <button onClick={this.toggle}>Set Toggle</button>
         <button onClick={this.numberNext}>Counter</button>
